@@ -1,0 +1,67 @@
+body {
+    background: #f7f9fb;
+    font-family: 'Segoe UI', Arial, sans-serif;
+}
+.header {
+    background: #6c63ff;
+    color: #fff;
+    border-radius: 1rem;
+    padding: 2rem 1rem 1rem 1rem;
+    margin-bottom: 2rem;
+    text-align: center;
+    box-shadow: 0 2px 8px rgba(108,99,255,0.08);
+}
+.todo-form {
+    background: #fff;
+    border-radius: 1rem;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+    padding: 1.5rem;
+    margin-bottom: 2rem;
+}
+.table-responsive {
+    border-radius: 1rem;
+    overflow: hidden;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+    background: #fff;
+}
+table {
+    margin-bottom: 0;
+}
+th, td {
+    vertical-align: middle !important;
+}
+.task-completed {
+    text-decoration: line-through;
+    color: #aaa;
+    background: #e9ecef;
+}
+.btn-delete {
+    background: #ff6b6b;
+    color: #fff;
+    border-radius: 0.5rem;
+    transition: background 0.2s;
+}
+.btn-delete:hover {
+    background: #d90429;
+}
+.form-control:focus, .btn:focus {
+    box-shadow: 0 0 0 0.2rem rgba(108,99,255,0.15);
+}
+.btn-add {
+    background: #6c63ff;
+    color: #fff;
+    border-radius: 0.5rem;
+    transition: background 0.2s;
+}
+.btn-add:hover {
+    background: #5548c8;
+}
+@media (max-width: 576px) {
+    .header {
+        padding: 1rem 0.5rem;
+        font-size: 1.5rem;
+    }
+    .todo-form {
+        padding: 1rem;
+    }
+}
